@@ -1,0 +1,38 @@
+.navbar{
+    justify-content: center;
+}
+.form-control {
+    border-radius: 3px;
+    width: 600px;
+    margin-left: 20px;
+}
+.card{
+    margin: 40px;
+}
+.search-icon {
+    position: absolute;
+    z-index: 10;
+    right: 10px;
+    top: 10px;
+    color: blue;
+@media(max-width: 480px){
+    .btn-primary{
+        margin-top: 44px;
+    }
+    .navbar-brand{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+}
+@media(max-width: 900px){
+    .navbar-brand{
+        width: calc(100% - 100px);
+        .form-group, .form-control{
+            width: 100%;
+        }
+    }
+    .search-icon{
+        right: 0px;
+    }
+}
